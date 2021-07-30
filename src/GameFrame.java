@@ -17,10 +17,10 @@ public class GameFrame extends JPanel {
     private int side = 4;
     private boolean checkingAvailableMoves;
 
-    static final int GAME_WIDTH = 600, GAME_HEIGHT = 600;
+    static final int GAME_WIDTH = 900, GAME_HEIGHT = 700;
 
     public GameFrame() {
-        setPreferredSize(new Dimension(900, 700));
+        setPreferredSize(new Dimension(GAME_WIDTH, GAME_HEIGHT));
         setBackground(new Color(0xFAF8EF));
         setFont(new Font("SansSerif", Font.BOLD, 48));
         setFocusable(true);
